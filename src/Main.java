@@ -2,6 +2,10 @@ import com.dam2024.librerias.Salida;
 import javax.swing.*;
 
 public class Main {
+    /**
+     * metodo main en el que se pide por consola los numeros de la operacion que se va a realizar y lo muestra
+     * @param args
+     */
     public static void main(String[] args) {
     Float retorno=Calculadora.calculadora(Float.parseFloat(JOptionPane.showInputDialog("Introduzca el primer número")),Float.parseFloat(JOptionPane.showInputDialog("Introduzca el segundo número")),Calculadora.SUMA);
     if(retorno==null)
