@@ -1,13 +1,19 @@
+package com.dam2024.calculadora;
+
 import javax.swing.*;
 /**
  * Clase en la que se instancian los métodos de las operaciones
  */
 public class Calculadora {
 
+    /**
+     * atributos final que asocian un numero int a una operacion deseada
+     */
     final static int SUMA=1;
     final static int RESTA=2;
     final static int MULTIPLICACION=3;
     final static int DIVISION=4;
+    final static int RAIZ=5;
     /**
      *
      * @param num1 Primer numero con el que se va a realizar la operación
@@ -35,6 +41,25 @@ public class Calculadora {
                 }finally{
                     break;
                 }
+
+                /**
+                 *
+                 */
+
+            case RAIZ:
+                resultado=(float)Math.pow(num1,1/num2);
+                break;
+
+
+            /*case RAIZ:
+                if(num2==2){
+                    resultado=(float)Math.sqrt(num1);
+                } else if (num2==3) {
+                    resultado=(float)Math.cbrt(num2);
+                }else
+                    return null;
+                break;
+            */
             default:
                 resultado=null;
         }
