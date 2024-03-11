@@ -40,12 +40,16 @@ public class Calculadora {
                     break;
                 }
 
-                /*case RAIZ:
-                resultado=(float)Math.pow(num1,1/num2);
-                break;
-                */
+                /**
+                 *
+                 */
 
             case RAIZ:
+                resultado=(float)Math.pow(num1,1/num2);
+                break;
+
+
+            /*case RAIZ:
                 if(num2==2){
                     resultado=(float)Math.sqrt(num1);
                 } else if (num2==3) {
@@ -53,7 +57,7 @@ public class Calculadora {
                 }else
                     return null;
                 break;
-
+            */
             default:
                 resultado=null;
         }
