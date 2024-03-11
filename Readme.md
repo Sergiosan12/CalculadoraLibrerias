@@ -1,4 +1,4 @@
-## Examen com.dam2024.calculadora.Calculadora
+## Examen Calculadora
 
 1. En primer lugar, se crea una nueva rama "raices" en el proyecto de calculadora ya hecho en clase y nos ponemos a trabajar en esta nueva rama.
 2. A continuación, se hace una nueva variable para la raiz y se realiza las operaciones necesarias en el switch para que de bien el resultado, controlando los errores.
