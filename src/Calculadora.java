@@ -1,5 +1,3 @@
-package com.dam2024.calculadora;
-
 import javax.swing.*;
 /**
  * Clase en la que se instancian los métodos de las operaciones
